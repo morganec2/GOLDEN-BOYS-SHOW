@@ -5,22 +5,22 @@
 .gallery_title {
   font-size: 30px;
   margin-top: 20px;
-  text-shadow: 0 0 5px #f0f, 0 0 10px #f0f, 0 0 20px #f0f, 0 0 30px #ff00ff;
+  text-shadow: 0 0 5px gold, 0 0 10px gold, 0 0 20px gold, 0 0 30px gold;
   color: #fff;
 }
 
 .gallery p {
   font-size: 16px;
   margin-bottom: 50px;
-  color: #ff00ff;
+  color: gold;
 }
 /* bouton retour page d'accueil */
 .back-home-button {
   position: fixed;
   top: 20px;
   left: 50px;
-  background-color: #ff00ff;
-  color: white;
+  background-color: gold;
+  color: black;
   padding: 10px;
   border: none;
   border-radius: 5px;
@@ -48,8 +48,7 @@
   overflow: hidden;
   transition: transform 0.2s ease-in-out;
   padding: 10px 10px 10px 10px;
-  box-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 30px #ff00ff,
-    0 0 40px #ff00ff;
+  box-shadow: 0 0 10px gold, 0 0 20px gold, 0 0 30px gold, 0 0 40px gold;
 }
 
 .gallery-card:hover {

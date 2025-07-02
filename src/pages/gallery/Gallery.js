@@ -1,6 +1,5 @@
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./gallery.css";
 import { galleryList } from "./galleryList";
@@ -15,9 +14,7 @@ const Gallery = () => {
   return (
     <div className="gallery">
       <h1 className="gallery_title">Galerie</h1>
-      <p>
-        Bienvenue dans la galerie ! Ici, vous trouverez une sélection de photos.
-      </p>
+      <p>Bienvenue dans la galerie ! Ici, vous trouverez tous nos artistes.</p>
       <button onClick={handleRetourAccueil} className="back-home-button">
         <FontAwesomeIcon icon={faArrowLeft} />
       </button>
