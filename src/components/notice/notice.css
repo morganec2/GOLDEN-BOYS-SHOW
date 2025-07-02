@@ -2,19 +2,21 @@
   color: white;
   font-weight: bold;
   text-align: center;
-  box-shadow: 0 0 10px gold, 0 0 20px gold, 0 0 30px gold, 0 0 40px gold;
+  box-shadow: 0 0 10px #daa520, 0 0 20px #daa520, 0 0 30px #daa520,
+    0 0 40px #daa520;
   padding: 10px;
   margin-bottom: 30px;
 }
 .notice h2 {
-  text-shadow: 0 0 5px gold, 0 0 10px gold, 0 0 20px gold, 0 0 30px gold;
+  text-shadow: 0 0 5px #daa520, 0 0 10px #daa520, 0 0 20px #daa520,
+    0 0 30px #daa520;
   font-size: 20px;
 }
 .avis {
   display: inline-block;
   padding: 10px 20px;
-  color: gold;
-  border: 5px solid gold;
+  color: #daa520;
+  border: 5px solid #daa520;
   text-decoration: none;
   border-radius: 25px;
   margin-top: 20px;

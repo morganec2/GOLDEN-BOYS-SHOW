@@ -1,6 +1,6 @@
 import emailjs from "@emailjs/browser";
-import React, { useState } from "react";
-import backgroundFond from "../../assets/contact/image-contact.webp";
+import { useState } from "react";
+import backgroundFond from "../../assets/contact/image-contact.png";
 import "./contact.css";
 
 const Contact = () => {

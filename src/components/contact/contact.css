@@ -6,10 +6,10 @@
 }
 .phrase_contact {
   font-size: 16px;
-  color: #ff00ff;
+  color: #daa520;
   text-align: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 .form-image-wrapper {
   display: flex;
@@ -31,13 +31,14 @@
 .form-container h1 {
   margin-bottom: 20px;
   color: #fff;
-  text-shadow: 0 0 5px #f0f, 0 0 10px #f0f, 0 0 20px #f0f, 0 0 30px #ff00ff;
+  text-shadow: 0 0 5px #daa520, 0 0 10px #daa520, 0 0 20px #daa520,
+    0 0 30px #daa520;
   text-align: center;
   font-size: 26px;
 }
 
 .form-container label {
-  color: #ff00ff;
+  color: #daa520;
   font-size: 14px;
 }
 
@@ -63,23 +64,26 @@
 }
 
 .form-container button {
-  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
   padding: 10px;
   border: none;
   border-radius: 20px;
   background-color: #000;
-  box-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 30px #ff00ff,
-    0 0 40px #ff00ff;
-  color: white;
-  font-size: 12px;
+  box-shadow: 0 0 10px #daa520, 0 0 20px #daa520, 0 0 30px #daa520,
+    0 0 40px #daa520;
+  color: #daa520;
+  font-size: 14px;
   cursor: pointer;
   transition: background-color 0.3s;
   font-weight: bold;
-  margin-left: 10px;
+  margin: 0 auto;
 }
 
 .form-container button:hover {
-  background-color: #ff00ff;
+  background-color: #daa520;
 }
 
 /* Ajuster la superposition */
@@ -95,7 +99,7 @@
   margin-top: 20px;
   padding: 10px;
   text-align: center;
-  background-color: #ff00ff;
+  background-color: #daa520;
   color: white;
   border-radius: 5px;
 }

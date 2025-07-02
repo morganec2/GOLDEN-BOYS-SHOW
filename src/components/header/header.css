@@ -15,13 +15,15 @@
 .nav-links a {
   font-size: 12px;
   font-weight: bold;
-  color: gold;
+  color: white;
   text-transform: uppercase;
   text-decoration: none;
   padding: 10px 20px;
   border-radius: 30px;
-  text-shadow: 0 0 5px gold, 0 0 10px gold, 0 0 20px gold, 0 0 30px gold;
-  box-shadow: 0 0 5px gold, 0 0 10px gold, 0 0 20px gold, 0 0 30px gold;
+  text-shadow: 0 0 5px #daa520, 0 0 10px #daa520, 0 0 20px #daa520,
+    0 0 30px #daa520;
+  box-shadow: 0 0 5px #daa520, 0 0 10px #daa520, 0 0 20px #daa520,
+    0 0 30px #daa520;
   transition: all 0.3s ease-in-out;
 }
 
@@ -33,15 +35,18 @@
   text-decoration: none;
   padding: 10px 20px;
   border-radius: 30px;
-  text-shadow: 0 0 5px gold, 0 0 10px gold, 0 0 20px gold, 0 0 30px gold;
-  box-shadow: 0 0 5px gold, 0 0 10px gold, 0 0 20px gold, 0 0 30px gold;
+  text-shadow: 0 0 5px #daa520, 0 0 10px #daa520, 0 0 20px #daa520,
+    0 0 30px #daa520;
+  box-shadow: 0 0 5px #daa520, 0 0 10px #daa520, 0 0 20px #daa520,
+    0 0 30px #daa520;
   transition: all 0.3s ease-in-out;
 }
 
 .neon-link:hover {
   color: #000;
-  background: gold;
-  box-shadow: 0 0 10px gold, 0 0 20px gold, 0 0 30px gold, 0 0 40px gold;
+  background: #daa520;
+  box-shadow: 0 0 10px #daa520, 0 0 20px #daa520, 0 0 30px #daa520,
+    0 0 40px #daa520;
 }
 
 .nav-links.open {
@@ -57,10 +62,10 @@
   position: fixed;
   bottom: 30px;
   right: 30px;
-  background-color: #ff00ff;
-  color: #fff;
-  box-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 30px #ff00ff,
-    0 0 40px #ff00ff;
+  background-color: #daa520;
+  color: black;
+  box-shadow: 0 0 10px #daa520, 0 0 20px #daa520, 0 0 30px #daa520,
+    0 0 40px #daa520;
 
   border-radius: 10px;
   padding: 10px;
