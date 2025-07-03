@@ -1,15 +1,15 @@
+import dinerShowImage from "../../assets/services/diner-show.webp";
 import "./services.css";
 
 const Services = ({ id }) => {
   const service = {
-    image: "https://via.placeholder.com/150",
+    image: dinerShowImage,
     title: "Titre du service",
     subtitle: "Sous-titre du service",
   };
 
   return (
     <div id={id} className="services">
-      <h3 className="services-title">Prestations</h3>
       <div className="services-container">
         <div className="services-card">
           <img
@@ -17,8 +17,7 @@ const Services = ({ id }) => {
             alt={service.title}
             className="service-image"
           />
-          <p className="prestations_subtitle">{service.subtitle}</p>
-          <p className="prestations_title">{service.title}</p>
+          <p className="prestation_text">Ici il y aura un texte </p>
         </div>
       </div>
     </div>

@@ -21,11 +21,13 @@ const Gallery = () => {
       <div className="gallery-container">
         {galleryList.map((gallery, index) => (
           <div key={index} className="gallery-card">
-            <img
-              src={gallery.image}
-              alt={gallery.title}
-              className="gallery-image"
-            />
+            <a href={gallery.link} target="_blank" rel="noopener noreferrer">
+              <img
+                src={gallery.image}
+                alt={gallery.title}
+                className="gallery-image"
+              />
+            </a>
           </div>
         ))}
       </div>

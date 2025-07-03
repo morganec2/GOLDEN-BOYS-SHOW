@@ -1,6 +1,7 @@
 export const galleryList = [
   {
     image: require("../../assets/gallery/deshabiller.webp"),
-    alt: "déshabiller",
+    title: "Dylan",
+    link: "https://boom-event.com/dylan/",
   },
 ];

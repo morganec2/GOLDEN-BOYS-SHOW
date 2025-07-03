@@ -116,8 +116,8 @@
     position: relative;
   }
 
-  .logo_Nelly {
-    width: 50%;
+  .logo_goldenboys {
+    width: 70%;
   }
 
   .menu-toggle {
@@ -132,7 +132,7 @@
   .menu-toggle .bar {
     width: 25px;
     height: 3px;
-    background-color: #fff;
+    background-color: #daa520;
     margin: 3px 25px;
   }
 

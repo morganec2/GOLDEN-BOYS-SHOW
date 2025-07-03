@@ -98,7 +98,7 @@
   transform: translateY(-50%);
   background: transparent;
   border: none;
-  color: white;
+  color: #daa520;
   font-size: 2rem;
   padding: 10px 20px;
   cursor: pointer;
@@ -123,27 +123,43 @@
 /* Styles pour les tablettes (écran jusqu'à 768px) */
 @media screen and (max-width: 768px) {
   .hero {
-    height: 70vh;
+    height: 55vh;
+  }
+  .background-video {
+    top: 45%;
+  }
+  .carousel-item img {
+    width: 85%;
+  }
+  .carousel-container {
+    height: 35vh;
   }
   .carousel-button.prev {
-    left: 50px;
+    left: 10px;
   }
 
   .carousel-button.next {
-    right: 50px;
+    right: 10px;
   }
   .catchphrase {
     padding-top: 30px;
     font-size: 14px;
+    padding-bottom: 0;
   }
 }
 /* Styles pour les mobiles (écran jusqu'à 480px) */
 @media screen and (max-width: 480px) {
   .hero {
-    height: 50vh;
+    height: 25vh;
+  }
+  .background-video {
+    top: 43%;
   }
   .carousel-item {
-    width: 200px;
+    width: 150px;
+  }
+  .carousel-item img {
+    width: 85%;
   }
   .carousel-button.prev {
     left: 0;
