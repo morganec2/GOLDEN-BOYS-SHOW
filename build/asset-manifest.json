@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.493c89fe.css",
+    "main.js": "/static/js/main.ccc06f6b.js",
+    "static/js/488.ba1cd9c6.chunk.js": "/static/js/488.ba1cd9c6.chunk.js",
+    "static/media/fond_carousel.mp4": "/static/media/fond_carousel.5c8930462b1799a4f6f7.mp4",
+    "static/media/diner-show.webp": "/static/media/diner-show.6c6a8d8d7c2f741a24e1.webp",
+    "static/media/casquette.webp": "/static/media/casquette.7c6decd2bd0fc5304c36.webp",
+    "static/media/deshabiller.webp": "/static/media/deshabiller.b64073e8bfe1200cecaa.webp",
+    "static/media/neon.webp": "/static/media/neon.5a300240e74e64563b18.webp",
+    "static/media/sombre.webp": "/static/media/sombre.a66f52c4e5b84a910c30.webp",
+    "static/media/effetlumiere.webp": "/static/media/effetlumiere.1c9c87b9bda6b2522902.webp",
+    "static/media/fondbio.webp": "/static/media/fondbio.d5c72c513c8119640748.webp",
+    "static/media/blackandwhite.webp": "/static/media/blackandwhite.1b5443c1c01db5231cff.webp",
+    "static/media/Logo.png": "/static/media/Logo.a9ec8c18320b0b0e321d.png",
+    "static/media/image-contact.webp": "/static/media/image-contact.73c2ed9026f1a8dcb5cf.webp",
+    "static/media/insta.webp": "/static/media/insta.2044b450804a76b7277e.webp",
+    "index.html": "/index.html",
+    "static/media/mail.webp": "/static/media/mail.6b76591f6dd0a8f97c00.webp",
+    "static/media/facebook.webp": "/static/media/facebook.7314d40c20e9ae2d6f66.webp",
+    "static/media/phone.webp": "/static/media/phone.f2d2ebd4b2a428273258.webp",
+    "main.493c89fe.css.map": "/static/css/main.493c89fe.css.map",
+    "main.ccc06f6b.js.map": "/static/js/main.ccc06f6b.js.map",
+    "488.ba1cd9c6.chunk.js.map": "/static/js/488.ba1cd9c6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.493c89fe.css",
+    "static/js/main.ccc06f6b.js"
+  ]
+}
