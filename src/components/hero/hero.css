@@ -150,7 +150,7 @@
 /* Styles pour les mobiles (écran jusqu'à 480px) */
 @media screen and (max-width: 480px) {
   .hero {
-    height: 25vh;
+    height: 45vh;
   }
   .background-video {
     top: 43%;

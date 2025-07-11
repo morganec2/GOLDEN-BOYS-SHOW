@@ -16,7 +16,7 @@ export const heroList = [
     alt: "Drogo",
   },
   {
-    image: require("../../assets/carousel/shawn (1).webp"),
+    image: require("../../assets/carousel/shawn.webp"),
     alt: "shawn",
   },
   {
