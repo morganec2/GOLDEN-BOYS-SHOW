@@ -1,26 +1,26 @@
 export const heroList = [
   {
-    image: require("../../assets/gallery/effetlumiere.webp"),
-    alt: "Effet lumière",
+    image: require("../../assets/carousel/nelly.jpg"),
+    alt: "Nelly",
   },
   {
-    image: require("../../assets/gallery/sombre.webp"),
-    alt: "photo sombre",
+    image: require("../../assets/carousel/WhatsApp Image 2025-07-11 at 12.01.46.webp"),
+    alt: "Ross",
   },
   {
-    image: require("../../assets/gallery/neon.webp"),
-    alt: "néon",
+    image: require("../../assets/carousel/enzo.jpg"),
+    alt: "Enzo",
   },
   {
-    image: require("../../assets/gallery/blackandwhite.webp"),
-    alt: "Noir et blanc",
+    image: require("../../assets/carousel/photo.jpg"),
+    alt: "Drogo",
   },
   {
-    image: require("../../assets/gallery/deshabiller.webp"),
-    alt: "déshabiller",
+    image: require("../../assets/carousel/shawn (1).webp"),
+    alt: "shawn",
   },
   {
-    image: require("../../assets/gallery/casquette.webp"),
-    alt: "casquette",
+    image: require("../../assets/carousel/travis.jpg"),
+    alt: "Travis",
   },
 ];
