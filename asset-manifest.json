@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.24f9a7e0.css",
-    "main.js": "/static/js/main.8a03ad43.js",
+    "main.css": "/static/css/main.7c1e2ed6.css",
+    "main.js": "/static/js/main.9471ea2d.js",
     "static/js/488.ba1cd9c6.chunk.js": "/static/js/488.ba1cd9c6.chunk.js",
     "static/media/enzo.jpg": "/static/media/enzo.ac86a4a958c58dcec873.jpg",
     "static/media/travis.jpg": "/static/media/travis.bc212525ef9b19c37c76.jpg",
@@ -12,8 +12,8 @@
     "static/media/diner-show.webp": "/static/media/diner-show.6c6a8d8d7c2f741a24e1.webp",
     "static/media/deshabiller.webp": "/static/media/deshabiller.b64073e8bfe1200cecaa.webp",
     "static/media/fondbio.webp": "/static/media/fondbio.d5c72c513c8119640748.webp",
+    "static/media/shawn.webp": "/static/media/shawn.67889e13bd5f01db7324.webp",
     "static/media/WhatsApp Image 2025-07-11 at 12.01.46.webp": "/static/media/WhatsApp Image 2025-07-11 at 12.01.46.2b51774f62aa0cc19d3b.webp",
-    "static/media/shawn (1).webp": "/static/media/shawn (1).c2ed529aa20d0ebbe3bc.webp",
     "static/media/Logo.png": "/static/media/Logo.a9ec8c18320b0b0e321d.png",
     "static/media/image-contact.webp": "/static/media/image-contact.73c2ed9026f1a8dcb5cf.webp",
     "static/media/insta.webp": "/static/media/insta.2044b450804a76b7277e.webp",
@@ -21,12 +21,12 @@
     "static/media/mail.webp": "/static/media/mail.6b76591f6dd0a8f97c00.webp",
     "static/media/facebook.webp": "/static/media/facebook.7314d40c20e9ae2d6f66.webp",
     "static/media/phone.webp": "/static/media/phone.f2d2ebd4b2a428273258.webp",
-    "main.24f9a7e0.css.map": "/static/css/main.24f9a7e0.css.map",
-    "main.8a03ad43.js.map": "/static/js/main.8a03ad43.js.map",
+    "main.7c1e2ed6.css.map": "/static/css/main.7c1e2ed6.css.map",
+    "main.9471ea2d.js.map": "/static/js/main.9471ea2d.js.map",
     "488.ba1cd9c6.chunk.js.map": "/static/js/488.ba1cd9c6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.24f9a7e0.css",
-    "static/js/main.8a03ad43.js"
+    "static/css/main.7c1e2ed6.css",
+    "static/js/main.9471ea2d.js"
   ]
 }
