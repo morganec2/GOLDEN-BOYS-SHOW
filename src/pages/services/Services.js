@@ -1,15 +1,27 @@
+import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useNavigate } from "react-router-dom";
 import dinerShowImage from "../../assets/services/diner-show.webp";
 import "./services.css";
 
-const Services = ({ id }) => {
+const Services = () => {
   const service = {
     image: dinerShowImage,
     title: "Titre du service",
     subtitle: "Sous-titre du service",
   };
+  const navigate = useNavigate();
+
+  const handleRetourAccueil = () => {
+    navigate("Home");
+  };
 
   return (
-    <div id={id} className="services">
+    <div className="services">
+      <h1 className="gallery_title">Nos prestations</h1>
+      <button onClick={handleRetourAccueil} className="back-home-button">
+        <FontAwesomeIcon icon={faArrowLeft} />
+      </button>
       <div className="services-container">
         <div className="services-card">
           <img
@@ -27,7 +39,7 @@ const Services = ({ id }) => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Cliquez ici, pour retrouvez toutes nos dates de spectacle !
+          Cliquez ici, pour retrouver toutes nos dates de spectacle !
         </a>
       </div>
     </div>

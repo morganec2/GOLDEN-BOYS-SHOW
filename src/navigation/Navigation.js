@@ -1,4 +1,3 @@
-import React from "react";
 import {
   BrowserRouter,
   Navigate,
@@ -10,6 +9,7 @@ import Footer from "../components/footer/Footer";
 import Header from "../components/header/Header";
 import Gallery from "../pages/gallery/Gallery";
 import Home from "../pages/home/Home";
+import Services from "../pages/services/Services";
 
 function AppLayout({ children }) {
   const location = useLocation();
@@ -32,6 +32,7 @@ function Navigation() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/gallery" element={<Gallery />} />
+          <Route path="/services" element={<Services />} />
           <Route path="*" element={<Navigate replace to="/" />} />
         </Routes>
         <Footer />

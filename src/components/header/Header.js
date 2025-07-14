@@ -47,15 +47,9 @@ function Header() {
         <Link to="/gallery" className="neon-link">
           Boys
         </Link>
-        <ScrollLink
-          to="services"
-          smooth={true}
-          duration={500}
-          className="neon-link"
-          href="#services"
-        >
+        <Link to="/services" className="neon-link">
           Prestations
-        </ScrollLink>
+        </Link>
         <ScrollLink
           to="notice"
           smooth={true}
