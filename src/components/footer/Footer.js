@@ -10,7 +10,7 @@ function Footer() {
       <ul className="social-links">
         <li>
           <a
-            href="tel:0651422861"
+            href="tel:0674080606"
             title="Contacter"
             aria-label="Contacter par téléphone"
           >
@@ -24,7 +24,7 @@ function Footer() {
         </li>
         <li>
           <a
-            href="https://www.instagram.com/Golden-Boys-Show/"
+            href="https://www.instagram.com/golden_boys_chippendales/"
             title="lien instagram"
             target="_blank"
             rel="noopener noreferrer"

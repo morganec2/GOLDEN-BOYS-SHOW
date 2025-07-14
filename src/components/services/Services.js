@@ -17,8 +17,18 @@ const Services = ({ id }) => {
             alt={service.title}
             className="service-image"
           />
-          <p className="prestation_text">Ici il y aura un texte </p>
+          <p className="prestation_text">En cours de construction !!!!</p>
         </div>
+      </div>
+      <div className="prestation">
+        <a
+          className="presta"
+          href="https://www.facebook.com/goldenboysx/posts/pfbid02qF7yzC2gu1qyBrgYhMc3WmFxht8e9hph8dFZWbYe3yxLh3mjjhta4Dq3eb55tPzCl"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Cliquez ici, pour retrouvez toutes nos dates de spectacle !
+        </a>
       </div>
     </div>
   );

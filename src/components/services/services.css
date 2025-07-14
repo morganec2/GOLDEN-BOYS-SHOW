@@ -36,6 +36,17 @@
   font-size: 16px;
   color: #daa520;
 }
+.presta {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #daa520;
+  border: 5px solid #daa520;
+  text-decoration: none;
+  border-radius: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 /* Styles pour les tablettes (écran jusqu'à 768px) */
 @media screen and (max-width: 768px) {
   .services {

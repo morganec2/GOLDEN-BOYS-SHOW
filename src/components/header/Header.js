@@ -45,7 +45,7 @@ function Header() {
           À propos de nous
         </ScrollLink>
         <Link to="/gallery" className="neon-link">
-          Galerie
+          Boys
         </Link>
         <ScrollLink
           to="services"

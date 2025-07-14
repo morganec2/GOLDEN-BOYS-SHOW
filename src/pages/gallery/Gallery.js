@@ -13,8 +13,8 @@ const Gallery = () => {
 
   return (
     <div className="gallery">
-      <h1 className="gallery_title">Galerie</h1>
-      <p>Bienvenue dans la galerie ! Ici, vous trouverez tous nos artistes.</p>
+      <h1 className="gallery_title">Boys</h1>
+      <p>Bienvenue ! Ici, vous retrouverez tous nos artistes.</p>
       <button onClick={handleRetourAccueil} className="back-home-button">
         <FontAwesomeIcon icon={faArrowLeft} />
       </button>
