@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.3f354702.css",
-    "main.js": "/static/js/main.a440b394.js",
+    "main.css": "/static/css/main.f68d401b.css",
+    "main.js": "/static/js/main.c51b3b6f.js",
     "static/js/488.5dda8cd5.chunk.js": "/static/js/488.5dda8cd5.chunk.js",
     "static/media/enzo.jpg": "/static/media/enzo.ac86a4a958c58dcec873.jpg",
     "static/media/drogo2.jpg": "/static/media/drogo2.9745163939db6efbf5a4.jpg",
-    "static/media/nelly.jpg": "/static/media/nelly.10fb020b2048954e7cdf.jpg",
     "static/media/drogo1.jpg": "/static/media/drogo1.89d474e6113a6d7dff2b.jpg",
     "static/media/nelly1.jpg": "/static/media/nelly1.06a823f96afb70404d9e.jpg",
-    "static/media/travis.jpg": "/static/media/travis.bc212525ef9b19c37c76.jpg",
-    "static/media/photo.jpg": "/static/media/photo.a3081db2cc0070141b71.jpg",
     "static/media/nellyboys.jpg": "/static/media/nellyboys.1d50ad2931ff372825e4.jpg",
     "static/media/FBM_0633-Modifier.jpg": "/static/media/FBM_0633-Modifier.f52c3fdb4ca1a9f14359.jpg",
     "static/media/nelly2.jpg": "/static/media/nelly2.16a61555eded453e11b3.jpg",
     "static/media/fond_carousel.mp4": "/static/media/fond_carousel.5c8930462b1799a4f6f7.mp4",
+    "static/media/nelly.webp": "/static/media/nelly.1a9ec9fc2908d397eee6.webp",
+    "static/media/travis.webp": "/static/media/travis.04ed67fe499100d08adb.webp",
+    "static/media/enzo.webp": "/static/media/enzo.1a7a34104f42a9d28340.webp",
+    "static/media/drogo.webp": "/static/media/drogo.edfc6107d4594c5b81b8.webp",
     "static/media/diner-show.webp": "/static/media/diner-show.6c6a8d8d7c2f741a24e1.webp",
     "static/media/fondbio.webp": "/static/media/fondbio.d5c72c513c8119640748.webp",
-    "static/media/shawn.webp": "/static/media/shawn.67889e13bd5f01db7324.webp",
-    "static/media/WhatsApp Image 2025-07-11 at 12.01.46.webp": "/static/media/WhatsApp Image 2025-07-11 at 12.01.46.2b51774f62aa0cc19d3b.webp",
+    "static/media/shawn.webp": "/static/media/shawn.0b3df2dcd7ae649e2b97.webp",
+    "static/media/ross.webp": "/static/media/ross.e865068c2dadf194c0bd.webp",
     "static/media/Logo.png": "/static/media/Logo.a9ec8c18320b0b0e321d.png",
     "static/media/image-contact.webp": "/static/media/image-contact.73c2ed9026f1a8dcb5cf.webp",
     "static/media/insta.webp": "/static/media/insta.2044b450804a76b7277e.webp",
@@ -25,12 +26,12 @@
     "static/media/mail.webp": "/static/media/mail.6b76591f6dd0a8f97c00.webp",
     "static/media/facebook.webp": "/static/media/facebook.7314d40c20e9ae2d6f66.webp",
     "static/media/phone.webp": "/static/media/phone.f2d2ebd4b2a428273258.webp",
-    "main.3f354702.css.map": "/static/css/main.3f354702.css.map",
-    "main.a440b394.js.map": "/static/js/main.a440b394.js.map",
+    "main.f68d401b.css.map": "/static/css/main.f68d401b.css.map",
+    "main.c51b3b6f.js.map": "/static/js/main.c51b3b6f.js.map",
     "488.5dda8cd5.chunk.js.map": "/static/js/488.5dda8cd5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f354702.css",
-    "static/js/main.a440b394.js"
+    "static/css/main.f68d401b.css",
+    "static/js/main.c51b3b6f.js"
   ]
 }
