@@ -11,6 +11,10 @@ const Gallery = () => {
     navigate("Home");
   };
 
+  const handleImageClick = (id) => {
+    navigate(`/artist/${id}`);
+  };
+
   return (
     <div className="gallery">
       <h1 className="gallery_title">Boys</h1>
@@ -19,15 +23,17 @@ const Gallery = () => {
         <FontAwesomeIcon icon={faArrowLeft} />
       </button>
       <div className="gallery-container">
-        {galleryList.map((gallery, index) => (
-          <div key={index} className="gallery-card">
-            <a href={gallery.link} target="_blank" rel="noopener noreferrer">
-              <img
-                src={gallery.image}
-                alt={gallery.title}
-                className="gallery-image"
-              />
-            </a>
+        {galleryList.map((gallery) => (
+          <div
+            key={gallery.id}
+            className="gallery-card"
+            onClick={() => handleImageClick(gallery.id)}
+          >
+            <img
+              src={gallery.sections[0].image}
+              alt={gallery.title}
+              className="gallery-image"
+            />
           </div>
         ))}
       </div>

@@ -1,0 +1,82 @@
+.artist-description {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.back-button {
+  background: none;
+  border: none;
+  color: #daa520;
+  font-size: 18px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.artist-subtitle {
+  font-size: 20px;
+  font-weight: bold;
+  color: #daa520;
+  margin-bottom: 20px;
+}
+.artist-title {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.artist-short-desc {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 60px;
+  color: #daa520;
+}
+
+.artist-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.artist-section.left-image {
+  flex-direction: row;
+}
+
+.artist-section.right-image {
+  flex-direction: row-reverse;
+}
+
+.artist-image img {
+  max-width: 400px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.artist-text {
+  flex: 1;
+  padding: 0 20px;
+  color: #daa520;
+}
+
+.artist-full-text {
+  margin-top: 40px;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #daa520;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .artist-section {
+    flex-direction: column !important;
+    text-align: center;
+  }
+
+  .artist-text {
+    padding: 10px 0;
+  }
+
+  .artist-image img {
+    max-width: 100%;
+  }
+}

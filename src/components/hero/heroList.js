@@ -1,18 +1,18 @@
 export const heroList = [
   {
-    image: require("../../assets/carousel/nelly.jpg"),
+    image: require("../../assets/carousel/nelly.webp"),
     alt: "Nelly",
   },
   {
-    image: require("../../assets/carousel/WhatsApp Image 2025-07-11 at 12.01.46.webp"),
+    image: require("../../assets/carousel/ross.webp"),
     alt: "Ross",
   },
   {
-    image: require("../../assets/carousel/enzo.jpg"),
+    image: require("../../assets/carousel/enzo.webp"),
     alt: "Enzo",
   },
   {
-    image: require("../../assets/carousel/photo.jpg"),
+    image: require("../../assets/carousel/drogo.webp"),
     alt: "Drogo",
   },
   {
@@ -20,7 +20,7 @@ export const heroList = [
     alt: "shawn",
   },
   {
-    image: require("../../assets/carousel/travis.jpg"),
+    image: require("../../assets/carousel/travis.webp"),
     alt: "Travis",
   },
 ];

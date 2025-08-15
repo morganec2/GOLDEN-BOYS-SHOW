@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import Footer from "../components/footer/Footer";
 import Header from "../components/header/Header";
+import ArtistDescription from "../pages/artistes/ArtistDescription";
 import Gallery from "../pages/gallery/Gallery";
 import Home from "../pages/home/Home";
 import Services from "../pages/services/Services";
@@ -15,7 +16,7 @@ function AppLayout({ children }) {
   const location = useLocation();
 
   // Liste des chemins où le Header ne doit pas s'afficher
-  const hideHeaderPaths = ["/gallery"];
+  const hideHeaderPaths = ["/gallery", "/artist"];
 
   return (
     <>
@@ -32,6 +33,7 @@ function Navigation() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/gallery" element={<Gallery />} />
+          <Route path="/artist/:id" element={<ArtistDescription />} />
           <Route path="/services" element={<Services />} />
           <Route path="*" element={<Navigate replace to="/" />} />
         </Routes>
