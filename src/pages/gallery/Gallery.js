@@ -19,6 +19,8 @@ const Gallery = () => {
     <div className="gallery">
       <h1 className="gallery_title">Boys</h1>
       <p>Bienvenue ! Ici, vous retrouverez tous nos artistes.</p>
+      <p>Cliquez sur les photos pour en découvrir un peu plus...</p>
+
       <button onClick={handleRetourAccueil} className="back-home-button">
         <FontAwesomeIcon icon={faArrowLeft} />
       </button>
