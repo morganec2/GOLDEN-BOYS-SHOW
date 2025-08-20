@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.f68d401b.css",
-    "main.js": "/static/js/main.c51b3b6f.js",
+    "main.js": "/static/js/main.c34d07dd.js",
     "static/js/488.5dda8cd5.chunk.js": "/static/js/488.5dda8cd5.chunk.js",
-    "static/media/enzo.jpg": "/static/media/enzo.ac86a4a958c58dcec873.jpg",
+    "static/media/nelly5.jpg": "/static/media/nelly5.ceb6a6ffc46c79a1bd65.jpg",
+    "static/media/enzo6.jpg": "/static/media/enzo6.ffc9fd9451b89bb86456.jpg",
+    "static/media/travis1.jpg": "/static/media/travis1.d2f04b9874deb7db4acc.jpg",
     "static/media/drogo2.jpg": "/static/media/drogo2.9745163939db6efbf5a4.jpg",
-    "static/media/drogo1.jpg": "/static/media/drogo1.89d474e6113a6d7dff2b.jpg",
     "static/media/nelly1.jpg": "/static/media/nelly1.06a823f96afb70404d9e.jpg",
     "static/media/nellyboys.jpg": "/static/media/nellyboys.1d50ad2931ff372825e4.jpg",
     "static/media/FBM_0633-Modifier.jpg": "/static/media/FBM_0633-Modifier.f52c3fdb4ca1a9f14359.jpg",
@@ -14,8 +15,13 @@
     "static/media/nelly.webp": "/static/media/nelly.1a9ec9fc2908d397eee6.webp",
     "static/media/travis.webp": "/static/media/travis.04ed67fe499100d08adb.webp",
     "static/media/enzo.webp": "/static/media/enzo.1a7a34104f42a9d28340.webp",
+    "static/media/drogo7.jpg": "/static/media/drogo7.d7838b1e4a1a57b13324.jpg",
     "static/media/drogo.webp": "/static/media/drogo.edfc6107d4594c5b81b8.webp",
+    "static/media/drogo6.jpg": "/static/media/drogo6.037a02335d12692d4dc2.jpg",
     "static/media/diner-show.webp": "/static/media/diner-show.6c6a8d8d7c2f741a24e1.webp",
+    "static/media/drogo3.jpg": "/static/media/drogo3.ebc63d37a6974360bfb5.jpg",
+    "static/media/nelly3.jpg": "/static/media/nelly3.657ffca595bcb42ec083.jpg",
+    "static/media/drogo4.jpg": "/static/media/drogo4.0fe23d333ce444030256.jpg",
     "static/media/fondbio.webp": "/static/media/fondbio.d5c72c513c8119640748.webp",
     "static/media/shawn.webp": "/static/media/shawn.0b3df2dcd7ae649e2b97.webp",
     "static/media/ross.webp": "/static/media/ross.e865068c2dadf194c0bd.webp",
@@ -27,11 +33,11 @@
     "static/media/facebook.webp": "/static/media/facebook.7314d40c20e9ae2d6f66.webp",
     "static/media/phone.webp": "/static/media/phone.f2d2ebd4b2a428273258.webp",
     "main.f68d401b.css.map": "/static/css/main.f68d401b.css.map",
-    "main.c51b3b6f.js.map": "/static/js/main.c51b3b6f.js.map",
+    "main.c34d07dd.js.map": "/static/js/main.c34d07dd.js.map",
     "488.5dda8cd5.chunk.js.map": "/static/js/488.5dda8cd5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f68d401b.css",
-    "static/js/main.c51b3b6f.js"
+    "static/js/main.c34d07dd.js"
   ]
 }
