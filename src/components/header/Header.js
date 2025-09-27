@@ -68,6 +68,9 @@ function Header() {
         >
           Contact
         </ScrollLink>
+        <Link to="/goodies" className="neon-link">
+          Goodies
+        </Link>
       </nav>
       <li className="menu-toggle" onClick={toggleMenu}>
         <span className="bar"></span>

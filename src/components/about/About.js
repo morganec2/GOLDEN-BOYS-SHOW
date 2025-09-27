@@ -1,5 +1,5 @@
-import photobio from "../../assets/about/FBM_0633-Modifier.jpg";
 import backgroundImage from "../../assets/about/fondbio.webp";
+import photobio from "../../assets/about/golden-boys.jpg";
 import "./about.css";
 
 const About = ({ id }) => {

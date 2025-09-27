@@ -14,26 +14,31 @@
 }
 
 .services-card {
-  width: 50%;
+  width: 80%;
   border-radius: 20px;
   overflow: hidden;
-  transition: transform 0.2s ease-in-out;
   padding: 10px 10px 10px 10px;
   box-shadow: 0 0 10px #daa520, 0 0 20px #daa520, 0 0 30px #daa520,
     0 0 40px #daa520;
   margin: 80px 0 80px 0;
 }
 
-.services-card:hover {
-  transform: scale(1.05);
-}
 .service-image {
   width: 100%;
   object-fit: cover;
   border-radius: 20px;
 }
-.prestation_text {
-  font-size: 16px;
+.prestation-title {
+  font-size: 25px;
+  color: #daa520;
+}
+.prestation_subtext {
+  font-size: 20px;
+  color: #daa520;
+  font-weight: bold;
+}
+p {
+  font-size: 18px;
   color: #daa520;
 }
 .presta {
@@ -45,8 +50,11 @@
   border-radius: 25px;
   margin-top: 20px;
   margin-bottom: 20px;
+  transition: transform 0.2s ease-in-out;
 }
-
+.presta:hover {
+  transform: scale(1.05);
+}
 /* Styles pour les tablettes (écran jusqu'à 768px) */
 @media screen and (max-width: 768px) {
   .services {

@@ -44,7 +44,7 @@ export const galleryList = [
         text: `Membre incontournable des Golden Boys, Nelly prête une dimension théâtrale unique à la troupe. Sa présence magnifie chaque tableau, apportant profondeur et intensité aux chorégraphies. Par son charisme naturel, il inspire ses partenaires et élève l’énergie collective.
         Plus qu’un simple interprète, il agit comme un catalyseur : il insuffle un rythme, donne une couleur à chaque acte et transforme chaque apparition en moment fort. Son sens de la mise en scène et sa maîtrise des codes du spectacle garantissent un rendu visuel et émotionnel à la hauteur des attentes les plus exigeantes.
         Inviter les Golden Boys, c’est plonger dans un univers où sensualité et élégance se rencontrent. Avec des artistes de la trempe de Nelly, chaque représentation devient un voyage scénique mémorable, pensé pour surprendre, séduire et marquer durablement les esprits. Son empreinte, à la fois discrète et essentielle, assure une harmonie parfaite entre puissance collective et éclat individuel.`,
-        image: require("../../assets/boys/nelly3.jpg"),
+        image: require("../../assets/boys/nelly4.jpg"),
         imagePosition: "left",
       },
     ],
@@ -107,12 +107,49 @@ export const galleryList = [
   {
     id: "Travis",
     title: "Travis",
-    description: "Travis",
+    description: "Travis, votre électron libre à l’énergie contagieuse",
     sections: [
       {
-        subtitle: "PAGE EN COURS DE CONSTRUCTION...",
-        text: ``,
+        subtitle:
+          "Laissez-vous séduire par la vivacité d’un artiste irrésistiblement pétillant",
+        text: `Dans la troupe, Travis bouscule les codes avec sa jeunesse vive et spontanée. Son énergie communicative, son charisme naturel et son physique athlétique captivent immédiatement, tandis que son talent scénique et sa fraîcheur apportent une nouvelle dimension aux performances.`,
         image: require("../../assets/boys/travis1.jpg"),
+        imagePosition: "left",
+      },
+      {
+        subtitle:
+          "Découvrez la puissance envoûtante d’un corps athlétique sculpté et harmonieux",
+        text: `Travis attire tous les regards sans effort, chaque mouvement mettant en lumière l’harmonie parfaite de sa silhouette athlétique. Son torse sculpté, ses épaules larges et ses bras fermes témoignent d’un entraînement rigoureux et d’une discipline sans faille. Ses abdominaux dessinés soulignent l’équilibre subtil entre tonicité et souplesse, tandis que sa posture assurée et ses lignes nettes ajoutent une élégance naturelle qui captive instantanément.
+        Son visage angélique, encadré par une chevelure soignée, contraste avec cette carrure impressionnante et attire l’attention vers ses yeux d’un bleu profond, capables de fasciner en un instant. Chaque geste transforme sa musculature en instrument expressif, mêlant vigueur et fluidité avec une aisance déconcertante. Que ce soit au fil de chorégraphies parfaitement maîtrisées ou dans des improvisations inventives, ce performeur sait créer des tableaux scéniques d’une intensité mémorable.
+        Son charme spontané, sa légèreté et cette étincelle pétillante dans le regard rendent sa présence irrésistible, et le public, hommes comme femmes, se laisse séduire par ce mélange unique de puissance, de finesse et d’authenticité. Chaque représentation devient un moment d’exception, où l’énergie, le raffinement et la personnalité de l’artiste se conjuguent pour offrir un spectacle véritablement inoubliable.`,
+        image: require("../../assets/boys/travis5.jpg"),
+        imagePosition: "right",
+      },
+      {
+        subtitle:
+          "Succombez à l’authenticité d’un charme naïf, désarmant et sincère",
+        text: `Au-delà de sa silhouette remarquable, c’est la personnalité de Travis qui séduit dès la première minute. Il reste fidèle à lui-même, entier et profondément sincère, qualités rares qui créent un lien immédiat avec le public. Son sourire lumineux, son regard pétillant et sa gestuelle naturelle éveillent une complicité instantanée, donnant l’impression que chaque spectateur partage un moment privilégié avec lui.
+        Là où certains misent sur le mystère ou la provocation, lui choisit la clarté et l’éclat d’un charme direct, spontané et désarmant. Esprit espiègle, il joue de sa malice avec subtilité, taquine avec humour sans jamais dépasser les limites et séduit sans effort ni artifice. Cette authenticité lui confère une aura unique : il touche autant par sa vivacité que par la chaleur humaine qu’il dégage.
+        Le public ne se contente pas de l’admirer : il ressent l’envie de rire avec lui, de partager un regard complice ou un instant de légèreté qui transforme chaque performance en souvenir précieux. Dans un univers où tout semble calculé et millimétré, il insuffle l’imprévu, la fraîcheur et la candeur qui rendent sa présence sur scène inoubliable et irrésistiblement attachante, donnant à chaque représentation une dimension singulière et mémorable.`,
+        image: require("../../assets/boys/travis2.jpg"),
+        imagePosition: "left",
+      },
+      {
+        subtitle:
+          "Vibrez intensément au contact d’un jeune talent en pleine évolution artistique",
+        text: `S’il est l’un des plus jeunes de la troupe, il s’impose déjà comme un élément incontournable. Sa volonté de progresser, son écoute attentive et son désir d’apprendre traduisent une maturité rare. Il explore sans relâche, repousse ses limites et affine son style à chaque prestation, révélant une créativité instinctive et un potentiel scénique remarquable.
+        Ne laissez pas son jeune âge vous berner. Si ce splendide danseur blond aux yeux lagon a su trouver sa place parmi ces pairs aguerris du spectacle sensuel, vous pouvez avoir la certitude de bénéficier d’un divertissement hors norme qui vous mettra des étoiles dans les yeux. Toutes les occasions sont bonnes pour découvrir l’étendue des talents d’un bel étalon tel que lui.
+        Chaque performance devient ainsi une opportunité de renforcer son assurance, de repousser ses limites et de confirmer sa position au sein de ce collectif exigeant. Son magnétisme naturel et son énergie communicative fascinent à chaque apparition. Les spectateurs le découvrent avec curiosité aujourd’hui et l’acclameront demain avec admiration, convaincus qu’il n’a pas fini de surprendre, de se réinventer et de briller sur scène.`,
+        image: require("../../assets/boys/travis4.jpg"),
+        imagePosition: "right",
+      },
+      {
+        subtitle:
+          "Offrez-vous une parenthèse légère avec le saphir brut des Golden Boys",
+        text: `Dans une troupe où chaque artiste exprime une facette du désir et de la sensualité, Travis incarne une lumière singulière : celle de la spontanéité et de la joie pure. Son rôle est essentiel, car il insuffle un souffle rafraîchissant et dynamisant qui équilibre les numéros les plus intenses. Sa puissance physique et sa présence sur scène se mêlent à une insouciance maîtrisée, apportant une couleur unique à l’ensemble.
+        Aux côtés de ses partenaires plus chevronnés, il ne cherche jamais à dominer la représentation, mais enrichit chaque tableau d’une dimension nouvelle et captivante. Cette complémentarité crée une alchimie rare, où l’expérience rencontre l’élan juvénile pour composer un univers vibrant et complet.
+        En invitant les Golden Boys, vous offrez à votre public la promesse d’un instant où séduction, énergie et émotion s’entrelacent avec intensité. Avec ce jeune talent, chaque prestation prend la forme d’une révélation : un mélange de vigueur et légèreté, de puissance et de malice, qui transforme chaque représentation en un moment irrésistible et mémorable.`,
+        image: require("../../assets/boys/travis3.jpg"),
         imagePosition: "left",
       },
     ],

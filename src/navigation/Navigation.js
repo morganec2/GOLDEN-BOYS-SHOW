@@ -9,6 +9,7 @@ import Footer from "../components/footer/Footer";
 import Header from "../components/header/Header";
 import ArtistDescription from "../pages/artistes/ArtistDescription";
 import Gallery from "../pages/gallery/Gallery";
+import Goodies from "../pages/goodies/Goodies";
 import Home from "../pages/home/Home";
 import Services from "../pages/services/Services";
 
@@ -35,6 +36,7 @@ function Navigation() {
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/artist/:id" element={<ArtistDescription />} />
           <Route path="/services" element={<Services />} />
+          <Route path="/goodies" element={<Goodies />} />
           <Route path="*" element={<Navigate replace to="/" />} />
         </Routes>
         <Footer />
