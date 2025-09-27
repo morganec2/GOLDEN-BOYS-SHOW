@@ -11,14 +11,6 @@
   margin-top: 20px;
 }
 
-.about-container h2 {
-  color: white;
-  font-size: 20px;
-  text-shadow: 0 0 5px #daa520, 0 0 10px #daa520, 0 0 20px #daa520,
-    0 0 30px #daa520;
-  text-align: center;
-}
-
 .photo_bio {
   width: 40%;
   height: auto;
@@ -27,11 +19,43 @@
 }
 
 .about-text {
-  font-size: 12px;
+  font-size: 25px;
   color: white;
   margin-bottom: 10px;
   text-align: left;
 }
+.about_title {
+  color: white;
+  font-size: 25px;
+  text-shadow: 0 0 5px #daa520, 0 0 10px #daa520, 0 0 20px #daa520,
+    0 0 30px #daa520;
+  text-align: center;
+  margin-top: 75px;
+}
+.about_subtitle {
+  font-size: 20px;
+  color: #daa520;
+  font-weight: bold;
+}
+.about_text {
+  font-size: 18px;
+  color: #daa520;
+}
+.read-more-button {
+  background: none;
+  border: none;
+  color: #cda434;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px 0;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+
+.read-more-button:hover {
+  color: #a88b2c;
+}
+
 /* Styles pour les tablettes (écran jusqu'à 768px) */
 @media screen and (max-width: 768px) {
   .about-container {
