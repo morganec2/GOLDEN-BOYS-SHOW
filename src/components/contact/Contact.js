@@ -1,4 +1,3 @@
-import emailjs from "@emailjs/browser";
 import { useState } from "react";
 import backgroundFond from "../../assets/contact/image-contact.webp";
 import "./contact.css";
@@ -13,55 +12,50 @@ const Contact = () => {
   };
 
   const [formData, setFormData] = useState(initialFormState);
-  const [formSubmitted, setFormSubmitted] = useState(false); // Pour afficher un message après soumission
-  const [submittedName, setSubmittedName] = useState(""); // Stocke temporairement le nom soumis
-  const [error, setError] = useState(""); // Gestion des erreurs d'envoi
+  const [formSubmitted, setFormSubmitted] = useState(false);
+  const [submittedName, setSubmittedName] = useState("");
+  const [error, setError] = useState("");
 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-
-    // Sauvegarder le nom avant réinitialisation
     setSubmittedName(formData.nom);
+    setError("");
 
-    // Configurer EmailJS
-    const serviceID = "service_cby313p"; // Remplacez par votre service ID EmailJS
-    const templateID = "template_bdyctl8"; // Remplacez par votre template ID EmailJS
-    const userID = "JqJW1L-C2okF7fYJf"; // Remplacez par votre user ID EmailJS
-
-    emailjs
-      .send(
-        serviceID,
-        templateID,
+    try {
+      const response = await fetch(
+        "https://formsubmit.co/ajax/contact.spectaclesevents@gmail.com",
         {
-          nom: formData.nom,
-          type: formData.type,
-          telephone: formData.telephone,
-          email: formData.email,
-          message: formData.message,
-        },
-        userID
-      )
-      .then(
-        (response) => {
-          console.log(
-            "Email envoyé avec succès!",
-            response.status,
-            response.text
-          );
-          setFormSubmitted(true); // Affiche le message de confirmation
-          setFormData(initialFormState); // Réinitialise le formulaire
-          setTimeout(() => setFormSubmitted(false), 5000); // Masque le message après 5s
-        },
-        (err) => {
-          console.error("Échec de l'envoi d'email:", err);
-          setError("Un problème est survenu. Merci de réessayer plus tard.");
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            Accept: "application/json",
+          },
+          body: JSON.stringify({
+            nom: formData.nom,
+            type: formData.type,
+            telephone: formData.telephone,
+            email: formData.email,
+            message: formData.message,
+          }),
         }
       );
+
+      if (!response.ok) {
+        throw new Error("Erreur lors de l'envoi du message.");
+      }
+
+      setFormSubmitted(true);
+      setFormData(initialFormState);
+      setTimeout(() => setFormSubmitted(false), 5000);
+    } catch (err) {
+      console.error("Erreur:", err);
+      setError("Un problème est survenu. Merci de réessayer plus tard.");
+    }
   };
 
   return (
@@ -86,7 +80,8 @@ const Contact = () => {
         />
 
         <div className="form-container">
-          <h1>Contactez-moi</h1>
+          <h1>Contactez-Nous</h1>
+
           <form onSubmit={handleSubmit}>
             <label htmlFor="nom">Nom</label>
             <input
@@ -96,6 +91,7 @@ const Contact = () => {
               placeholder="Votre nom"
               value={formData.nom}
               onChange={handleChange}
+              required
             />
 
             <label htmlFor="type">Vous êtes</label>
@@ -104,6 +100,7 @@ const Contact = () => {
               name="type"
               value={formData.type}
               onChange={handleChange}
+              required
             >
               <option value="particulier">Particulier</option>
               <option value="professionnel">Professionnel</option>
@@ -127,6 +124,7 @@ const Contact = () => {
               placeholder="Votre e-mail"
               value={formData.email}
               onChange={handleChange}
+              required
             />
 
             <label htmlFor="message">Message</label>
@@ -136,21 +134,23 @@ const Contact = () => {
               placeholder="Votre message"
               value={formData.message}
               onChange={handleChange}
+              required
             ></textarea>
-
+            <input type="text" name="_honey" style={{ display: "none" }} />
             <button type="submit">Envoyer</button>
           </form>
 
-          {/* Affichage du message de confirmation */}
+          {/* Message de confirmation */}
           {formSubmitted && (
             <div className="confirmation-message">
-              <p>
-                Merci, {submittedName || "utilisateur"}! Votre message a bien
+              <p className="message-confirme">
+                Merci, {submittedName || "utilisateur"} ! Votre message a bien
                 été envoyé.
               </p>
             </div>
           )}
-          {/* Affichage des erreurs */}
+
+          {/* Message d’erreur */}
           {error && <div className="error-message">{error}</div>}
         </div>
       </div>

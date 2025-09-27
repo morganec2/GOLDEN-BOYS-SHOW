@@ -101,8 +101,11 @@
   padding: 10px;
   text-align: center;
   background-color: #daa520;
-  color: white;
+  color: black;
   border-radius: 5px;
+}
+.message-confirme {
+  color: white;
 }
 .error-message {
   color: white;

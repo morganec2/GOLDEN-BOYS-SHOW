@@ -18,7 +18,10 @@ function Footer() {
           </a>
         </li>
         <li>
-          <a href="mailto:Golden-Boys-Show@outlook.fr" title="Envoyer un email">
+          <a
+            href="mailto:contact.spectaclesevents@gmail.com"
+            title="Envoyer un email"
+          >
             <img src={mailIcon} alt="Icône de mail" />
           </a>
         </li>
