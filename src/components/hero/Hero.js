@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import videoFile from "../../assets/carousel/fond_carousel.mp4";
 import "./hero.css";
 import { heroList } from "./heroList";
 
@@ -31,8 +32,7 @@ const Hero = () => {
   return (
     <div className="hero">
       <div className="fond_carousel">
-        {/* video carousel */}
-        {/* <video
+        <video
           className="background-video"
           ref={videoRef}
           autoPlay
@@ -42,7 +42,7 @@ const Hero = () => {
         >
           <source src={videoFile} type="video/mp4" />
           Your browser does not support the video tag.
-        </video> */}
+        </video>
       </div>
       <div className="carousel-container">
         <div className="carousel-wrapper">
