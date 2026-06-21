@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.08a81a7f.css",
-    "main.js": "/static/js/main.42ea7c9e.js",
+    "main.css": "/static/css/main.b7e1d830.css",
+    "main.js": "/static/js/main.4ca82de7.js",
     "static/js/488.5dda8cd5.chunk.js": "/static/js/488.5dda8cd5.chunk.js",
     "static/media/nelly5.jpg": "/static/media/nelly5.ceb6a6ffc46c79a1bd65.jpg",
     "static/media/enzo2.jpg": "/static/media/enzo2.9f95b72d7e3f0df64e03.jpg",
@@ -32,13 +32,14 @@
     "static/media/shawn3.jpg": "/static/media/shawn3.6992b366c324d9e88737.jpg",
     "static/media/travis4.jpg": "/static/media/travis4.52e481657c805c0ae3d2.jpg",
     "static/media/ross3.jpg": "/static/media/ross3.e63982018017ce6df5bf.jpg",
-    "static/media/golden-boys.jpg": "/static/media/golden-boys.ba97c464f1c8fa5deefd.jpg",
+    "static/media/golden-boys-troupe-artistes-spectacle.jpg": "/static/media/golden-boys-troupe-artistes-spectacle.ba97c464f1c8fa5deefd.jpg",
     "static/media/shawn.jpg": "/static/media/shawn.d5f8f06b7a0bda69d477.jpg",
     "static/media/shawn1.jpg": "/static/media/shawn1.d5f8f06b7a0bda69d477.jpg",
     "static/media/ross1.jpg": "/static/media/ross1.26aeb47933be402af764.jpg",
     "static/media/shawn2.jpg": "/static/media/shawn2.78e4aca9c24f9db4a8ba.jpg",
     "static/media/shawn4.jpg": "/static/media/shawn4.46e0eaa2c9f46459dfc8.jpg",
-    "static/media/fondbio.webp": "/static/media/fondbio.d5c72c513c8119640748.webp",
+    "static/media/golden-boys-troupe-style-futuriste-show.jpg": "/static/media/golden-boys-troupe-style-futuriste-show.b4c800589264762540bc.jpg",
+    "static/media/golden-boys-troupe-look-decontracte.jpg": "/static/media/golden-boys-troupe-look-decontracte.6b0607b5ea9cd183896a.jpg",
     "static/media/golden-boys-troupe.jpg": "/static/media/golden-boys-troupe.6b0607b5ea9cd183896a.jpg",
     "static/media/Logo.png": "/static/media/Logo.a9ec8c18320b0b0e321d.png",
     "static/media/image-contact.webp": "/static/media/image-contact.73c2ed9026f1a8dcb5cf.webp",
@@ -47,12 +48,12 @@
     "static/media/mail.webp": "/static/media/mail.6b76591f6dd0a8f97c00.webp",
     "static/media/facebook.webp": "/static/media/facebook.7314d40c20e9ae2d6f66.webp",
     "static/media/phone.webp": "/static/media/phone.f2d2ebd4b2a428273258.webp",
-    "main.08a81a7f.css.map": "/static/css/main.08a81a7f.css.map",
-    "main.42ea7c9e.js.map": "/static/js/main.42ea7c9e.js.map",
+    "main.b7e1d830.css.map": "/static/css/main.b7e1d830.css.map",
+    "main.4ca82de7.js.map": "/static/js/main.4ca82de7.js.map",
     "488.5dda8cd5.chunk.js.map": "/static/js/488.5dda8cd5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.08a81a7f.css",
-    "static/js/main.42ea7c9e.js"
+    "static/css/main.b7e1d830.css",
+    "static/js/main.4ca82de7.js"
   ]
 }
