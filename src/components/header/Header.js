@@ -42,7 +42,7 @@ function Header() {
           className="neon-link"
           href="#about"
         >
-          À propos de nous
+          Accueil
         </ScrollLink>
         <Link to="/gallery" className="neon-link">
           Boys
@@ -50,15 +50,31 @@ function Header() {
         <Link to="/services" className="neon-link">
           Prestations
         </Link>
+        <a
+          href="https://www.facebook.com/goldenboys.show/posts/pfbid0Xt52X9rVrwsoJQm9EkGjseAWt78CDQnEtHZHEACLK5x68g7JL4PPH8PrtwfhBPzal"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="neon-link"
+        >
+          Avis Clients
+        </a>
         <ScrollLink
-          to="notice"
+          to="video"
           smooth={true}
           duration={500}
           className="neon-link"
-          href="#notice"
+          href="#video"
         >
-          Avis Clients
+          Vidéos
         </ScrollLink>
+        <a
+          href="https://www.facebook.com/goldenboys.show/posts/pfbid0me4vg3hhTjKRAsZG6GrCHj3UhyDHxpvYdXimkPc1YoSh4fLcwUMLwsrekvWoo24Al"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="neon-link"
+        >
+          Agenda
+        </a>
         <ScrollLink
           to="contact"
           smooth={true}
@@ -67,6 +83,15 @@ function Header() {
           href="#contact"
         >
           Contact
+        </ScrollLink>
+        <ScrollLink
+          to="reseauxsociaux"
+          smooth={true}
+          duration={500}
+          className="neon-link"
+          href="#reseauxsociaux"
+        >
+          Réseaux Sociaux
         </ScrollLink>
         <Link to="/goodies" className="neon-link">
           Goodies

@@ -6,7 +6,7 @@ const Notice = ({ id }) => {
       <h2>Qu'en disent les client(e)s ?</h2>
       <a
         className="avis"
-        href="https://www.facebook.com/goldenboysx/posts/pfbid02bvT559CzD7wf9NwYkCvddmLVwYEW4gaVAprKdLvFLaabbVdPkjRq3zxFnkgL8XN4l"
+        href="https://www.facebook.com/goldenboys.show/posts/pfbid0Xt52X9rVrwsoJQm9EkGjseAWt78CDQnEtHZHEACLK5x68g7JL4PPH8PrtwfhBPzal"
         target="_blank"
         rel="noopener noreferrer"
       >

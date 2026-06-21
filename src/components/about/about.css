@@ -1,93 +1,138 @@
 .about-container {
-  text-align: center;
-  padding: 60px;
+  width: 100%;
 }
 
+/* =========================
+   🏷 TITRE PRINCIPAL
+========================= */
+.about-main-title {
+  text-align: center;
+  font-size: 36px;
+  margin: 80px 0 40px;
+  font-weight: 600;
+  color: #fff;
+  text-shadow:
+    0 0 5px #daa520,
+    0 0 10px #daa520,
+    0 0 20px #daa520,
+    0 0 30px #daa520;
+}
+
+/* =========================
+   🧱 SECTIONS ABOUT (IMAGE + TEXTE)
+========================= */
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  margin: 90px 0;
+  padding: 0 60px;
+}
+
+.about-section.reverse {
+  flex-direction: row-reverse;
+}
+
+/* 🖼 IMAGE */
+.about-image {
+  width: 50%;
+  border-radius: 14px;
+  object-fit: cover;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.about-image:hover {
+  transform: scale(1.02);
+}
+
+/* 📝 TEXTE */
+.about-text {
+  width: 50%;
+  font-size: 18px;
+  line-height: 1.8;
+  color: white;
+  white-space: pre-line;
+}
+
+.about-text h3 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #daa520;
+}
+
+/* =========================
+   👤 ABOUT BIO (photo + intro)
+========================= */
 .about-me {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 80px;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .photo_bio {
   width: 40%;
-  height: auto;
   border-radius: 8px;
   box-shadow: 0 4px 10px #daa520;
 }
 
-.about-text {
-  font-size: 25px;
-  color: white;
-  margin-bottom: 10px;
-  text-align: left;
-}
 .about_title {
   color: white;
   font-size: 25px;
-  text-shadow: 0 0 5px #daa520, 0 0 10px #daa520, 0 0 20px #daa520,
-    0 0 30px #daa520;
   text-align: center;
-  margin-top: 75px;
+  text-shadow: 0 0 10px #daa520;
 }
+
 .about_subtitle {
   font-size: 20px;
   color: #daa520;
   font-weight: bold;
 }
+
 .about_text {
   font-size: 18px;
   color: #daa520;
 }
+
 .read-more-button {
   background: none;
   border: none;
   color: #cda434;
   font-weight: bold;
   cursor: pointer;
-  padding: 10px 0;
   font-size: 1rem;
-  transition: color 0.3s;
 }
 
-.read-more-button:hover {
-  color: #a88b2c;
-}
-
-/* Styles pour les tablettes (écran jusqu'à 768px) */
-@media screen and (max-width: 768px) {
-  .about-container {
-    padding: 10px;
+/* =========================
+   📱 RESPONSIVE UNIQUE
+========================= */
+@media (max-width: 768px) {
+  .about-section,
+  .about-section.reverse {
+    flex-direction: column;
+    padding: 0 20px;
   }
+
+  .about-image,
+  .about-text {
+    width: 100%;
+  }
+
   .about-me {
+    flex-direction: column;
     gap: 20px;
   }
-  .photo_bio {
-    padding-left: 70px;
-  }
-  .about-text {
-    padding: 0 30px 0 0;
-  }
-}
-/* Styles pour les mobiles (écran jusqu'à 480px) */
-@media screen and (max-width: 480px) {
-  .about-container {
-    text-align: center;
-  }
-  .about-container h2 {
-    font-size: 16px;
-  }
-  .about-me {
-    display: block;
-  }
+
   .photo_bio {
     width: 70%;
-    padding-left: 0;
   }
-  .about-text {
-    text-align: center;
-    padding: 0;
+}
+
+@media (max-width: 480px) {
+  .about-main-title {
+    font-size: 24px;
   }
 }

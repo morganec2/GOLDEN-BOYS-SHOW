@@ -7,6 +7,8 @@ import {
 } from "react-router-dom";
 import Footer from "../components/footer/Footer";
 import Header from "../components/header/Header";
+import Notice from "../components/notice/Notice";
+import ReseauxSociaux from "../components/reseaux/ReseauxSociaux";
 import ArtistDescription from "../pages/artistes/ArtistDescription";
 import Gallery from "../pages/gallery/Gallery";
 import Goodies from "../pages/goodies/Goodies";
@@ -36,6 +38,8 @@ function Navigation() {
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/artist/:id" element={<ArtistDescription />} />
           <Route path="/services" element={<Services />} />
+          <Route path="/notice" element={<Notice />} />
+          <Route path="/reseauxsociaux" element={<ReseauxSociaux />} />
           <Route path="/goodies" element={<Goodies />} />
           <Route path="*" element={<Navigate replace to="/" />} />
         </Routes>

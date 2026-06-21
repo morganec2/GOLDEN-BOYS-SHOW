@@ -1,0 +1,11 @@
+.reseaux {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+.reseaux p {
+  font-size: 16px;
+  margin-bottom: 50px;
+  color: #daa520;
+  text-align: center;
+}
