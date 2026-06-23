@@ -18,7 +18,10 @@
   border-radius: 20px;
   overflow: hidden;
   padding: 10px 10px 10px 10px;
-  box-shadow: 0 0 10px #daa520, 0 0 20px #daa520, 0 0 30px #daa520,
+  box-shadow:
+    0 0 10px #daa520,
+    0 0 20px #daa520,
+    0 0 30px #daa520,
     0 0 40px #daa520;
   margin: 80px 0 80px 0;
 }
@@ -33,12 +36,12 @@
   color: #daa520;
 }
 .prestation_subtext {
-  font-size: 20px;
+  font-size: 30px;
   color: #daa520;
   font-weight: bold;
 }
 p {
-  font-size: 18px;
+  font-size: 20px;
   color: #daa520;
 }
 .presta {

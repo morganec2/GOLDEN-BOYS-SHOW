@@ -35,15 +35,9 @@ function Header() {
     <header className="just_header" id="header">
       <img src={Logo} alt="golden-boys-show" className="logo_goldenboys" />
       <nav className={`nav-links ${isMenuOpen ? "open" : ""}`}>
-        <ScrollLink
-          to="about"
-          smooth={true}
-          duration={500}
-          className="neon-link"
-          href="#about"
-        >
+        <Link to="/" className="neon-link">
           Accueil
-        </ScrollLink>
+        </Link>
         <Link to="/gallery" className="neon-link">
           Boys
         </Link>
@@ -84,15 +78,9 @@ function Header() {
         >
           Contact
         </ScrollLink>
-        <ScrollLink
-          to="reseauxsociaux"
-          smooth={true}
-          duration={500}
-          className="neon-link"
-          href="#reseauxsociaux"
-        >
+        <Link to="reseaux" className="neon-link">
           Réseaux Sociaux
-        </ScrollLink>
+        </Link>
         <Link to="/goodies" className="neon-link">
           Goodies
         </Link>

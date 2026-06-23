@@ -8,11 +8,11 @@ import {
 import Footer from "../components/footer/Footer";
 import Header from "../components/header/Header";
 import Notice from "../components/notice/Notice";
-import ReseauxSociaux from "../components/reseaux/ReseauxSociaux";
 import ArtistDescription from "../pages/artistes/ArtistDescription";
 import Gallery from "../pages/gallery/Gallery";
 import Goodies from "../pages/goodies/Goodies";
 import Home from "../pages/home/Home";
+import SocialPage from "../pages/reseaux/socialLinks";
 import Services from "../pages/services/Services";
 
 function AppLayout({ children }) {
@@ -39,7 +39,7 @@ function Navigation() {
           <Route path="/artist/:id" element={<ArtistDescription />} />
           <Route path="/services" element={<Services />} />
           <Route path="/notice" element={<Notice />} />
-          <Route path="/reseauxsociaux" element={<ReseauxSociaux />} />
+          <Route path="/reseaux" element={<SocialPage />} />
           <Route path="/goodies" element={<Goodies />} />
           <Route path="*" element={<Navigate replace to="/" />} />
         </Routes>
